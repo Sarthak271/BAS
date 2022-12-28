@@ -1,0 +1,4 @@
+COLUMN TABLE "Sales_Data_2" (
+    "Year" Integer,
+    "Sales" double
+)

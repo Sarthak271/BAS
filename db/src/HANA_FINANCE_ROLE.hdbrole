@@ -1,0 +1,12 @@
+{
+    "role": {
+      "name": "HANA_FINANCE_ROLE",
+      "schema_privileges": [
+        {
+          "privileges": [
+            "SELECT"
+          
+        }
+      ]
+    }
+  }

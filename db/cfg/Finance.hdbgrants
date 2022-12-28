@@ -1,0 +1,10 @@
+{
+  "CROSS_SERVICE": {
+    "object_owner" : {
+      "container_roles":["TRNG_ROLE_GRANTS#"]
+    },
+    "application_user" : {
+      "container_roles":["TRNG_ROLE"]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+COLUMN TABLE "Date_Range" (
+"Start Date"	Date,
+"End Date" Date,
+"Year" integer,
+"Month" Integer
+
+)

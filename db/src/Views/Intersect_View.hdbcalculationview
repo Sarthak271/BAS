@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="Intersect_View" applyPrivilegeType="NONE" dataCategory="CUBE" schemaVersion="3.0" hierarchyGeneration="SQL" outputViewType="Aggregation" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="Intersect_View.hdbcalculationview"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="Sales_Data">
+    <resourceUri>Sales_Data</resourceUri>
+  </DataSource>
+  <DataSource id="Sales_Data_2">
+    <resourceUri>Sales_Data_2</resourceUri>
+  </DataSource>
+</dataSources>
+<snapshotProcedures/>
+<calculationViews>
+  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_1">
+    <viewAttributes>
+      <viewAttribute id="Year"/>
+      <viewAttribute id="Sales"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Sales_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_2">
+    <viewAttributes>
+      <viewAttribute id="Year"/>
+      <viewAttribute id="Sales"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Sales_Data_2"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:IntersectView" id="Intersect_1">
+    <viewAttributes>
+      <viewAttribute id="Year"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Projection_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="Year" source="Year"/>
+    </input>
+    <input node="Projection_2">
+      <mapping xsi:type="Calculation:AttributeMapping" target="Year" source="Year"/>
+    </input>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1" joinType="inner">
+    <viewAttributes>
+      <viewAttribute id="Year" aggregationType="sum"/>
+      <viewAttribute id="Sales" aggregationType="sum"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Intersect_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="Year" source="Year"/>
+    </input>
+    <input node="Projection_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="Sales" source="Sales"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="Year" source="Year"/>
+    </input>
+    <joinAttribute name="Year"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Join_1">
+  <attributes>
+    <attribute id="Year" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Year"/>
+      <keyMapping columnObjectName="Join_1" columnName="Year"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures>
+    <measure id="Sales" order="2" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="Sales"/>
+      <measureMapping columnObjectName="Join_1" columnName="Sales"/>
+    </measure>
+  </baseMeasures>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+  <localDimensions/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="false" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="240.13896415953002" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Projection_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="491.9999964237213"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Projection_2" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="301.99999999999994" y="491.9999964237213"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Intersect_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="219.98568704980556" y="351.9999976158142"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="193.31902038313888" y="211.9999988079071"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Intersect_1" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="250"/>
+    </shape>
+    <shape modelObjectName="Projection_1" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="136.0234375"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

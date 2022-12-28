@@ -1,0 +1,1400 @@
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:38 UTC 2022] Added process: "web" (STDOUT, API)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:38 UTC 2022] Created app with guid 61cf7e99-38ef-4166-a914-24539daa855f (STDOUT, API)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:38 UTC 2022] Updating process: "web" (STDOUT, API)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:38 UTC 2022] Scaling process: "web" (STDOUT, API)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:38 UTC 2022] Updated app with guid 61cf7e99-38ef-4166-a914-24539daa855f ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:46 UTC 2022] Uploading app package for app with guid 61cf7e99-38ef-4166-a914-24539daa855f (STDOUT, API)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:46 UTC 2022] Updated app with guid 61cf7e99-38ef-4166-a914-24539daa855f ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:57 UTC 2022] Creating build for app with guid 61cf7e99-38ef-4166-a914-24539daa855f (STDOUT, API)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading sap_java_buildpack_1_60... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded sap_java_buildpack_1_60 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading sap_java_buildpack_1_64... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading sap_java_buildpack_1_63... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded sap_java_buildpack_1_63 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Cell d89356d5-8b8d-4fb9-b939-143db8dad6d7 creating container for instance 7885e437-e075-41d9-9461-c6a2a2357131 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloaded sap_java_buildpack_1_64 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Cell d89356d5-8b8d-4fb9-b939-143db8dad6d7 successfully created container for instance 7885e437-e075-41d9-9461-c6a2a2357131 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:06:59 UTC 2022] Downloading app package... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:02 UTC 2022] Downloaded app package (60.4M) (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:02 UTC 2022] -----> Nodejs Buildpack version 1.8.3 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:02 UTC 2022] Copy [/tmp/buildpacks/78a0401f4b0c1f9600a1b3ac267f2725/dependencies/62a635dc46247c1290627e867c5f4ed1/node_16.18.1_linux_x64_cflinuxfs3_17d46d77.tgz] (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:02 UTC 2022] -----> Installing node 16.18.1 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:02 UTC 2022] [31;1m**WARNING**[0m Node version not specified in package.json or .nvmrc. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:02 UTC 2022] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:02 UTC 2022] engines.node (package.json): unspecified (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:02 UTC 2022] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] Copy [/tmp/buildpacks/78a0401f4b0c1f9600a1b3ac267f2725/dependencies/0f06052381cbcef1593bd279ca3d9458/yarn_1.22.19_linux_noarch_any-stack_32d0e82e.tgz] (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] -----> Installing yarn 1.22.19 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] Using default npm version: 8.19.2 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] -----> Creating runtime environment (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] Installed yarn 1.22.19 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] Rebuilding any native modules (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] -----> Building dependencies (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] NODE_VERBOSE=false (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] NODE_MODULES_CACHE=true (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] NODE_HOME=/tmp/contents2101646156/deps/0/node (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:04 UTC 2022] NODE_ENV=production (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:05 UTC 2022] rebuilt dependencies successfully (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:05 UTC 2022] npm notice (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:05 UTC 2022] npm notice Run `npm install -g npm@9.2.0` to update! (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:05 UTC 2022] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0> (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:05 UTC 2022] npm notice New major version of npm available! 8.19.2 -> 9.2.0 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:05 UTC 2022] npm notice (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:05 UTC 2022] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:05 UTC 2022] up to date in 198ms (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:06 UTC 2022] service is not configured to run with Sealights (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:06 UTC 2022] inside Sealights hook (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:06 UTC 2022] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:17.640#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11124###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:06 UTC 2022] service is not configured to run with Sealights (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:17.641#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11124###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:06 UTC 2022] inside Sealights hook (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:06 UTC 2022] service is not configured to run with Sealights (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:06 UTC 2022] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:19 UTC 2022] Uploading droplet... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:19 UTC 2022] Uploading build artifacts cache... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:19 UTC 2022] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:19 UTC 2022] Exit status 0 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:19 UTC 2022] Uploaded build artifacts cache (216B) (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:20 UTC 2022] Creating droplet for app with guid 61cf7e99-38ef-4166-a914-24539daa855f (STDOUT, API)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:26 UTC 2022] Uploaded droplet (93.8M) (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:26 UTC 2022] Uploading complete (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:26 UTC 2022] Cell d89356d5-8b8d-4fb9-b939-143db8dad6d7 destroying container for instance 7885e437-e075-41d9-9461-c6a2a2357131 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:26 UTC 2022] Cell d89356d5-8b8d-4fb9-b939-143db8dad6d7 stopping instance 7885e437-e075-41d9-9461-c6a2a2357131 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:30.007#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[PollStageAppStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:27 UTC 2022] Cell d89356d5-8b8d-4fb9-b939-143db8dad6d7 successfully destroyed container for instance 7885e437-e075-41d9-9461-c6a2a2357131 (STDOUT, STG)#
+
+#2.0#2022 12 21 10:07:37.687#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10629###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:30 UTC 2022] Updated app with guid 61cf7e99-38ef-4166-a914-24539daa855f ({:droplet_guid=>"dd36d828-ab18-492a-8e87-0bf5fc76a9e6"}) (STDOUT, API)#
+
+#2.0#2022 12 21 10:07:37.687#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10629###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:32 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 creating container for instance 26af2339-0122-44b6-bd6a-6840486d8e36 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:07:37.687#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10629###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:32 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully created container for instance 26af2339-0122-44b6-bd6a-6840486d8e36 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:39 UTC 2022] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:39 UTC 2022] > start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Using service replacements from environment variable "SERVICE_REPLACEMENTS" with 2 replacements (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Using default environment variables from file ".env" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Detection of HDI version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39694 -> 34.224.44.10:443} (10.145.125.136:39694 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Detection of container API version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39688 -> 34.224.44.10:443} (10.145.125.136:39688 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Detection of server version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39686 -> 34.224.44.10:443} (10.145.125.136:39686 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Using hana-client for connection (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Deployment started at 2022-12-21 10:07:40 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] @sap/hdi-deploy, version 4.5.1 (mode default), server version unknown (0.0.0.0), node version 16.18.1, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] The server does not support live updating of make messages. The messages will be displayed, when the make is done. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Collecting files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Target service: hdi_db (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] 8 files collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] 2 directories collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Could not check if session variable APPLICATION is set correctly: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39704 -> 34.224.44.10:443} (10.145.125.136:39704 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.720#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Processing "cfg/Finance.hdbgrants"... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Processing grants files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Could not determine status of last build: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39708 -> 34.224.44.10:443} (10.145.125.136:39708 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Using grantor service "CROSS_SERVICE" of type "hdi" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] (1s 298ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] file name: cfg/Finance.hdbgrants (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] grantor service: "CROSS_SERVICE", type: "hdi", user: "HANA_TRNG_2_1_4E1QXOSPMWLW4456TLHOEBVN8_DT" (hdi_user) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Error: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39720 -> 34.224.44.10:443} (10.145.125.136:39720 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Deployment ended at 2022-12-21 10:07:40 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] npm notice Run `npm install -g npm@9.2.0` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0> (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] npm notice New major version of npm available! 8.19.2 -> 9.2.0 (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Exit status 1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:41 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 destroying container for instance 26af2339-0122-44b6-bd6a-6840486d8e36 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:41 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 stopping instance 26af2339-0122-44b6-bd6a-6840486d8e36 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:07:47.721#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:41 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully destroyed container for instance 26af2339-0122-44b6-bd6a-6840486d8e36 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:39 UTC 2022] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:39 UTC 2022] > start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Using service replacements from environment variable "SERVICE_REPLACEMENTS" with 2 replacements (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Using default environment variables from file ".env" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Detection of HDI version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39694 -> 34.224.44.10:443} (10.145.125.136:39694 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Detection of container API version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39688 -> 34.224.44.10:443} (10.145.125.136:39688 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Detection of server version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39686 -> 34.224.44.10:443} (10.145.125.136:39686 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Using hana-client for connection (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Deployment started at 2022-12-21 10:07:40 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] @sap/hdi-deploy, version 4.5.1 (mode default), server version unknown (0.0.0.0), node version 16.18.1, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] The server does not support live updating of make messages. The messages will be displayed, when the make is done. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Collecting files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Target service: hdi_db (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] 8 files collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] 2 directories collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Could not check if session variable APPLICATION is set correctly: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39704 -> 34.224.44.10:443} (10.145.125.136:39704 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Processing "cfg/Finance.hdbgrants"... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Processing grants files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Could not determine status of last build: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39708 -> 34.224.44.10:443} (10.145.125.136:39708 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Using grantor service "CROSS_SERVICE" of type "hdi" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] (1s 298ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] file name: cfg/Finance.hdbgrants (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] grantor service: "CROSS_SERVICE", type: "hdi", user: "HANA_TRNG_2_1_4E1QXOSPMWLW4456TLHOEBVN8_DT" (hdi_user) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Error: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.136:39720 -> 34.224.44.10:443} (10.145.125.136:39720 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Deployment ended at 2022-12-21 10:07:40 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] npm notice Run `npm install -g npm@9.2.0` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0> (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] npm notice New major version of npm available! 8.19.2 -> 9.2.0 (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:40 UTC 2022] Exit status 1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:41 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 destroying container for instance 26af2339-0122-44b6-bd6a-6840486d8e36 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:41 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 stopping instance 26af2339-0122-44b6-bd6a-6840486d8e36 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:41 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully destroyed container for instance 26af2339-0122-44b6-bd6a-6840486d8e36 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:50 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 creating container for instance 62022dfd-0db8-4c44-8df9-85ec3b2a7feb (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:07:57.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:50 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully created container for instance 62022dfd-0db8-4c44-8df9-85ec3b2a7feb (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:57 UTC 2022] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:57 UTC 2022] > start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] @sap/hdi-deploy, version 4.5.1 (mode default), server version unknown (0.0.0.0), node version 16.18.1, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] The server does not support live updating of make messages. The messages will be displayed, when the make is done. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Using service replacements from environment variable "SERVICE_REPLACEMENTS" with 2 replacements (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Using default environment variables from file ".env" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Detection of HDI version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54726 -> 34.224.44.10:443} (10.145.125.137:54726 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Detection of container API version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54724 -> 34.224.44.10:443} (10.145.125.137:54724 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Detection of server version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54714 -> 34.224.44.10:443} (10.145.125.137:54714 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Using hana-client for connection (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Deployment started at 2022-12-21 10:07:58 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Collecting files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Target service: hdi_db (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] 8 files collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] 2 directories collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Could not check if session variable APPLICATION is set correctly: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54732 -> 34.224.44.10:443} (10.145.125.137:54732 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Processing "cfg/Finance.hdbgrants"... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Processing grants files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Could not determine status of last build: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54746 -> 34.224.44.10:443} (10.145.125.137:54746 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Using grantor service "CROSS_SERVICE" of type "hdi" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] (1s 121ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] file name: cfg/Finance.hdbgrants (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] grantor service: "CROSS_SERVICE", type: "hdi", user: "HANA_TRNG_2_1_4E1QXOSPMWLW4456TLHOEBVN8_DT" (hdi_user) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Error: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54760 -> 34.224.44.10:443} (10.145.125.137:54760 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Deployment ended at 2022-12-21 10:07:58 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] npm notice Run `npm install -g npm@9.2.0` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0> (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] npm notice New major version of npm available! 8.19.2 -> 9.2.0 (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Exit status 1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 destroying container for instance 62022dfd-0db8-4c44-8df9-85ec3b2a7feb (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 stopping instance 62022dfd-0db8-4c44-8df9-85ec3b2a7feb (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:07.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:59 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully destroyed container for instance 62022dfd-0db8-4c44-8df9-85ec3b2a7feb (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:57 UTC 2022] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:57 UTC 2022] > start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] @sap/hdi-deploy, version 4.5.1 (mode default), server version unknown (0.0.0.0), node version 16.18.1, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] The server does not support live updating of make messages. The messages will be displayed, when the make is done. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Using service replacements from environment variable "SERVICE_REPLACEMENTS" with 2 replacements (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Using default environment variables from file ".env" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Detection of HDI version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54726 -> 34.224.44.10:443} (10.145.125.137:54726 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Detection of container API version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54724 -> 34.224.44.10:443} (10.145.125.137:54724 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Detection of server version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54714 -> 34.224.44.10:443} (10.145.125.137:54714 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Using hana-client for connection (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Deployment started at 2022-12-21 10:07:58 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Collecting files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Target service: hdi_db (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] 8 files collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] 2 directories collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Could not check if session variable APPLICATION is set correctly: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54732 -> 34.224.44.10:443} (10.145.125.137:54732 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Processing "cfg/Finance.hdbgrants"... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Processing grants files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Could not determine status of last build: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54746 -> 34.224.44.10:443} (10.145.125.137:54746 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Using grantor service "CROSS_SERVICE" of type "hdi" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] (1s 121ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] file name: cfg/Finance.hdbgrants (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] grantor service: "CROSS_SERVICE", type: "hdi", user: "HANA_TRNG_2_1_4E1QXOSPMWLW4456TLHOEBVN8_DT" (hdi_user) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Error: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.137:54760 -> 34.224.44.10:443} (10.145.125.137:54760 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Deployment ended at 2022-12-21 10:07:58 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] npm notice Run `npm install -g npm@9.2.0` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0> (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] npm notice New major version of npm available! 8.19.2 -> 9.2.0 (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Exit status 1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 destroying container for instance 62022dfd-0db8-4c44-8df9-85ec3b2a7feb (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:58 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 stopping instance 62022dfd-0db8-4c44-8df9-85ec3b2a7feb (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:07:59 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully destroyed container for instance 62022dfd-0db8-4c44-8df9-85ec3b2a7feb (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:08 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 creating container for instance 69e605dd-2a44-4521-9127-c42aa32ad920 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:09 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully created container for instance 69e605dd-2a44-4521-9127-c42aa32ad920 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:15 UTC 2022] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:15 UTC 2022] > start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:16 UTC 2022] Using service replacements from environment variable "SERVICE_REPLACEMENTS" with 2 replacements (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:16 UTC 2022] Using default environment variables from file ".env" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:16 UTC 2022] Detection of HDI version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.138:43700 -> 34.224.44.10:443} (10.145.125.138:43700 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:16 UTC 2022] Detection of container API version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.138:43692 -> 34.224.44.10:443} (10.145.125.138:43692 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:16 UTC 2022] Detection of server version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.138:43680 -> 34.224.44.10:443} (10.145.125.138:43680 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:16 UTC 2022] Using hana-client for connection (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:16 UTC 2022] Deployment started at 2022-12-21 10:08:16 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:16 UTC 2022] @sap/hdi-deploy, version 4.5.1 (mode default), server version unknown (0.0.0.0), node version 16.18.1, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:16 UTC 2022] The server does not support live updating of make messages. The messages will be displayed, when the make is done. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Collecting files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Target service: hdi_db (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] 8 files collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] 2 directories collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Could not check if session variable APPLICATION is set correctly: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.138:43706 -> 34.224.44.10:443} (10.145.125.138:43706 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Could not determine status of last build: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.138:43708 -> 34.224.44.10:443} (10.145.125.138:43708 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Using grantor service "CROSS_SERVICE" of type "hdi" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Processing "cfg/Finance.hdbgrants"... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Processing grants files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] (1s 210ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] file name: cfg/Finance.hdbgrants (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] grantor service: "CROSS_SERVICE", type: "hdi", user: "HANA_TRNG_2_1_4E1QXOSPMWLW4456TLHOEBVN8_DT" (hdi_user) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Error: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.138:43724 -> 34.224.44.10:443} (10.145.125.138:43724 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:17.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Deployment ended at 2022-12-21 10:08:17 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] (1s 210ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] file name: cfg/Finance.hdbgrants (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] grantor service: "CROSS_SERVICE", type: "hdi", user: "HANA_TRNG_2_1_4E1QXOSPMWLW4456TLHOEBVN8_DT" (hdi_user) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Error: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.138:43724 -> 34.224.44.10:443} (10.145.125.138:43724 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] npm notice Run `npm install -g npm@9.2.0` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0> (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] npm notice New major version of npm available! 8.19.2 -> 9.2.0 (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Exit status 1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 destroying container for instance 69e605dd-2a44-4521-9127-c42aa32ad920 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 stopping instance 69e605dd-2a44-4521-9127-c42aa32ad920 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:27.839#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:18 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully destroyed container for instance 69e605dd-2a44-4521-9127-c42aa32ad920 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] (1s 210ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] file name: cfg/Finance.hdbgrants (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] grantor service: "CROSS_SERVICE", type: "hdi", user: "HANA_TRNG_2_1_4E1QXOSPMWLW4456TLHOEBVN8_DT" (hdi_user) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Error: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.138:43724 -> 34.224.44.10:443} (10.145.125.138:43724 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] npm notice Run `npm install -g npm@9.2.0` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0> (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] npm notice New major version of npm available! 8.19.2 -> 9.2.0 (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Exit status 1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 destroying container for instance 69e605dd-2a44-4521-9127-c42aa32ad920 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:17 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 stopping instance 69e605dd-2a44-4521-9127-c42aa32ad920 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:18 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully destroyed container for instance 69e605dd-2a44-4521-9127-c42aa32ad920 (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:30 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 creating container for instance a6e87f45-3cda-472e-bc9d-c7861792240a (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:30 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully created container for instance a6e87f45-3cda-472e-bc9d-c7861792240a (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:36 UTC 2022] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:37.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:36 UTC 2022] > start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:36 UTC 2022] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:37 UTC 2022] Using service replacements from environment variable "SERVICE_REPLACEMENTS" with 2 replacements (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:37 UTC 2022] Using default environment variables from file ".env" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:37 UTC 2022] Detection of HDI version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.139:42214 -> 34.224.44.10:443} (10.145.125.139:42214 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:37 UTC 2022] Detection of container API version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.139:42210 -> 34.224.44.10:443} (10.145.125.139:42210 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:37 UTC 2022] Detection of server version failed; root cause: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.139:42204 -> 34.224.44.10:443} (10.145.125.139:42204 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:37 UTC 2022] Using hana-client for connection (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:37 UTC 2022] Deployment started at 2022-12-21 10:08:37 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:37 UTC 2022] @sap/hdi-deploy, version 4.5.1 (mode default), server version unknown (0.0.0.0), node version 16.18.1, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:37 UTC 2022] The server does not support live updating of make messages. The messages will be displayed, when the make is done. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Collecting files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Target service: hdi_db (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] 8 files collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] 2 directories collected (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Could not check if session variable APPLICATION is set correctly: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.139:42230 -> 34.224.44.10:443} (10.145.125.139:42230 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Processing "cfg/Finance.hdbgrants"... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Processing grants files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Could not determine status of last build: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.139:42246 -> 34.224.44.10:443} (10.145.125.139:42246 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Using grantor service "CROSS_SERVICE" of type "hdi" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] (1s 208ms) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] file name: cfg/Finance.hdbgrants (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] grantor service: "CROSS_SERVICE", type: "hdi", user: "HANA_TRNG_2_1_4E1QXOSPMWLW4456TLHOEBVN8_DT" (hdi_user) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Error: Connection failed (RTE:[89013] Socket closed by peer {10.145.125.139:42252 -> 34.224.44.10:443} (10.145.125.139:42252 -> 9e1f25df-f998-4cf9-a498-b16147cc9538.hana.trial-us10.hanacloud.ondemand.com:443)) (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Deployment ended at 2022-12-21 10:08:38 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] npm notice New major version of npm available! 8.19.2 -> 9.2.0 (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] npm notice (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] npm notice Run `npm install -g npm@9.2.0` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0> (STDERR, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Exit status 1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2022 12 21 10:08:47.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 destroying container for instance a6e87f45-3cda-472e-bc9d-c7861792240a (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:47.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:38 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 stopping instance a6e87f45-3cda-472e-bc9d-c7861792240a (STDOUT, CELL)#
+
+#2.0#2022 12 21 10:08:47.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.db.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[PollExecuteTaskStatusExecution] [db] 61cf7e99-38ef-4166-a914-24539daa855f [Wed Dec 21 10:08:39 UTC 2022] Cell 7806f5a7-dce8-4b2b-857b-5b04b577ad24 successfully destroyed container for instance a6e87f45-3cda-472e-bc9d-c7861792240a (STDOUT, CELL)#
+

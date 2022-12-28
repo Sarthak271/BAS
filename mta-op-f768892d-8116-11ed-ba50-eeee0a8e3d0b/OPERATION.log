@@ -1,0 +1,2632 @@
+#2.0#2022 12 21 10:05:15.849#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-10###
+[XS2StartProcessListener] Operation ID: f768892d-8116-11ed-ba50-eeee0a8e3d0b#
+
+#2.0#2022 12 21 10:05:15.867#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-10###
+[XS2StartProcessListener] Process environment: {
+  "SKIP_SSL_VALIDATION" : "false",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "32",
+  "VERSION" : "1.146.0",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "16",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "8"
+}#
+
+#2.0#2022 12 21 10:05:15.867#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-10###
+[XS2StartProcessListener] Current user: sagar.shelar@accenture.com#
+
+#2.0#2022 12 21 10:05:15.867#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-10###
+[XS2StartProcessListener] Client space: dev#
+
+#2.0#2022 12 21 10:05:15.867#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-10###
+[XS2StartProcessListener] Client organization: 48130447trial#
+
+#2.0#2022 12 21 10:05:15.867#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.startEvent#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-10###
+[XS2StartProcessListener] Process variables: {
+  "abortOnError" : false,
+  "mtaId" : "HANA_FINANCE",
+  "keepFiles" : false,
+  "verifyArchiveSignature" : false,
+  "noFailOnMissingPermissions" : false,
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "a42fbd57-2e86-4a15-87d8-55a9af579c1b,108a17cc-0b62-4832-9d99-0859cef90d02",
+  "gitUri" : "",
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "noStart" : false,
+  "deleteServices" : false
+}#
+
+#2.0#2022 12 21 10:05:15.919#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:15.919#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[ValidateDeployParametersStep] Validating parameters...#
+
+#2.0#2022 12 21 10:05:15.924#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[ValidateDeployParametersStep] Building archive from parts...#
+
+#2.0#2022 12 21 10:05:15.924#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[ValidateDeployParametersStep] Merging archive part with ID "108a17cc-0b62-4832-9d99-0859cef90d02", name "HANA_FINANCE_0.0.1.mtar.part.0"#
+
+#2.0#2022 12 21 10:05:16.401#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[ValidateDeployParametersStep] Merging archive part with ID "a42fbd57-2e86-4a15-87d8-55a9af579c1b", name "HANA_FINANCE_0.0.1.mtar.part.1"#
+
+#2.0#2022 12 21 10:05:17.520#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[ValidateDeployParametersStep] Deploying in org "48130447trial" and space "dev"#
+
+#2.0#2022 12 21 10:05:17.525#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[ValidateDeployParametersStep] Parameters validated#
+
+#2.0#2022 12 21 10:05:17.525#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.validateParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+Step "Validate Parameters" finished#
+
+#2.0#2022 12 21 10:05:17.568#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.deleteRemainingFileParts#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:17.620#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.deleteRemainingFileParts#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+Step "Delete Remaining File Parts" finished#
+
+#2.0#2022 12 21 10:05:17.655#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:17.657#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+
+#2.0#2022 12 21 10:05:17.657#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+[XS2ProcessMtaArchiveStep] MTA Archive ID: debd10c6-82b9-407c-aa1f-a7dfe0057bfb#
+
+#2.0#2022 12 21 10:05:17.757#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [db]#
+
+#2.0#2022 12 21 10:05:17.757#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+
+#2.0#2022 12 21 10:05:17.757#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: []#
+
+#2.0#2022 12 21 10:05:17.766#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+
+#2.0#2022 12 21 10:05:17.766#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processArchiveTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+Step "Process Archive" finished#
+
+#2.0#2022 12 21 10:05:17.806#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processExtensionDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10585###
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:17.807#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processExtensionDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10585###
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+
+#2.0#2022 12 21 10:05:17.807#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processExtensionDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10585###
+[ProcessMtaExtensionDescriptorsStep] Extension descriptors: [ ]#
+
+#2.0#2022 12 21 10:05:17.808#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processExtensionDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10585###
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+
+#2.0#2022 12 21 10:05:17.808#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processExtensionDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10585###
+Step "Process Extension Descriptors" finished#
+
+#2.0#2022 12 21 10:05:17.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectSchemaVersionTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10586###
+[DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:17.848#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectSchemaVersionTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10586###
+[DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+
+#2.0#2022 12 21 10:05:17.850#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectSchemaVersionTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10586###
+[DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+
+#2.0#2022 12 21 10:05:17.855#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectSchemaVersionTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10586###
+Step "Detect Schema Version" finished#
+
+#2.0#2022 12 21 10:05:17.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.mergeDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10587###
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:17.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.mergeDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10587###
+[MergeDescriptorsStep] Validating and merging descriptors...#
+
+#2.0#2022 12 21 10:05:17.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.mergeDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10587###
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "HANA_FINANCE",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "db",
+    "type" : "com.sap.xs.hdi",
+    "path" : "db",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "memory" : "256M",
+      "no-route" : true,
+      "dependency-type" : "hard",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hdi_db",
+      "properties" : {
+        "TARGET_CONTAINER" : "~{hdi-container-name}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-1",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "~{the-service-name}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-2",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "~{the-service-name}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "db",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hdi_db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : {
+      "hdi-container-name" : "${service-name}"
+    },
+    "parameters" : {
+      "service-plan" : "hdi-shared",
+      "type" : "managed-service",
+      "config" : {
+        "schema" : "HANA_FINANCE"
+      },
+      "service" : "hana"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-1",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "${service-name}"
+    },
+    "parameters" : {
+      "type" : "existing-service",
+      "service-name" : "UPS_TRNG_2"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-2",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "${service-name}"
+    },
+    "parameters" : {
+      "type" : "existing-service",
+      "service-name" : "HANA_TRNG_2"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  } ],
+  "parameters" : { },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2022 12 21 10:05:17.895#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.mergeDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10587###
+[MergeDescriptorsStep] Descriptors validated and merged#
+
+#2.0#2022 12 21 10:05:17.895#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.mergeDescriptorsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10587###
+Step "Merge Descriptors" finished#
+
+#2.0#2022 12 21 10:05:17.933#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10581###
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:17.934#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10581###
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+
+#2.0#2022 12 21 10:05:18.048#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10581###
+[DetectDeployedMtaStep] Detecting MTA by id HANA_FINANCE and namespace null#
+
+#2.0#2022 12 21 10:05:18.049#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10581###
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=f7524d6eda4d362653ac761c6e7b47fa,!mta_namespace"...#
+
+#2.0#2022 12 21 10:05:18.122#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10581###
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=f7524d6eda4d362653ac761c6e7b47fa,!mta_namespace"...#
+
+#2.0#2022 12 21 10:05:18.156#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10581###
+[DetectDeployedMtaStep] No deployed MTA detected - this is initial deployment of MTA with ID "HANA_FINANCE"#
+
+#2.0#2022 12 21 10:05:18.288#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10581###
+[DetectDeployedMtaStep] Deployed MTA service keys: [ ]#
+
+#2.0#2022 12 21 10:05:18.288#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.detectDeployedMtaTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10581###
+Step "Detect Deployed MTA" finished#
+
+#2.0#2022 12 21 10:05:18.329#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:18.330#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] Collecting system parameters...#
+
+#2.0#2022 12 21 10:05:18.330#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] Getting default domain...#
+
+#2.0#2022 12 21 10:05:18.388#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] Default domain: cfapps.us10-001.hana.ondemand.com#
+
+#2.0#2022 12 21 10:05:18.388#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "HANA_FINANCE"#
+
+#2.0#2022 12 21 10:05:18.388#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] No read-only parameters are overwritten#
+
+#2.0#2022 12 21 10:05:18.405#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "HANA_FINANCE",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "db",
+    "type" : "com.sap.xs.hdi",
+    "path" : "db",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "db",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "instances" : "${default-instances}",
+      "default-host" : "48130447trial-dev-db",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "dependency-type" : "hard",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true,
+      "timestamp" : "20221221100518"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hdi_db",
+      "properties" : {
+        "TARGET_CONTAINER" : "~{hdi-container-name}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-1",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "~{the-service-name}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-2",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "~{the-service-name}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "db",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hdi_db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : {
+      "hdi-container-name" : "${service-name}"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "hdi_db",
+      "type" : "managed-service",
+      "config" : {
+        "schema" : "HANA_FINANCE"
+      },
+      "default-service-name" : "hdi_db",
+      "default-container-name" : "48130447TRIAL_DEV_HDI_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-1",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "${service-name}"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "UPS_TRNG_2",
+      "generated-user" : "********",
+      "default-xsappname" : "cross-container-service-1",
+      "type" : "existing-service",
+      "default-service-name" : "cross-container-service-1",
+      "default-container-name" : "48130447TRIAL_DEV_CROSS_CONTAINER_SERVICE_1"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-2",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "${service-name}"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "HANA_TRNG_2",
+      "generated-user" : "********",
+      "default-xsappname" : "cross-container-service-2",
+      "type" : "existing-service",
+      "default-service-name" : "cross-container-service-2",
+      "default-container-name" : "48130447TRIAL_DEV_CROSS_CONTAINER_SERVICE_2"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  } ],
+  "parameters" : {
+    "authorization-url" : "********",
+    "org-guid" : "4c4cbdfc-f762-48d9-b294-4f41d098252b",
+    "org" : "48130447trial",
+    "deploy-target" : "48130447trial dev",
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "xs-auth-url" : "********",
+    "space-guid" : "96029f7e-c830-446d-b579-b17a0b3dc5a5",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2022 12 21 10:05:18.405#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] Version rule: SAME_HIGHER#
+
+#2.0#2022 12 21 10:05:18.405#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] Detected new MTA version: "0.0.1"#
+
+#2.0#2022 12 21 10:05:18.410#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] MTA accepted for deployment#
+
+#2.0#2022 12 21 10:05:18.411#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CollectSystemParametersStep] System parameters collected#
+
+#2.0#2022 12 21 10:05:18.411#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.collectSystemParametersTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+Step "Collect System Parameters" finished#
+
+#2.0#2022 12 21 10:05:18.449#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10582###
+[ProcessDescriptorStep] Executing task "processDescriptorTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:18.450#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10582###
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+
+#2.0#2022 12 21 10:05:18.452#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10582###
+[ProcessDescriptorStep] Subscriptions: [ ]#
+
+#2.0#2022 12 21 10:05:18.453#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10582###
+[ProcessDescriptorStep] MTA Modules: [db]#
+
+#2.0#2022 12 21 10:05:18.453#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10582###
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "HANA_FINANCE",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "db",
+    "type" : "com.sap.xs.hdi",
+    "path" : "db",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://48130447trial-dev-db.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "db",
+      "generated-password" : "********",
+      "default-uri" : "48130447trial-dev-db.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "instances" : 1,
+      "default-host" : "48130447trial-dev-db",
+      "app-name" : "db",
+      "protocol" : "https",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "48130447trial-dev-db",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true,
+      "timestamp" : "20221221100518"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hdi_db",
+      "properties" : {
+        "TARGET_CONTAINER" : "hdi_db"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-1",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "UPS_TRNG_2"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-2",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "HANA_TRNG_2"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "db",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hdi_db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : {
+      "hdi-container-name" : "hdi_db"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "hdi_db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "hdi_db",
+      "type" : "managed-service",
+      "config" : {
+        "schema" : "HANA_FINANCE"
+      },
+      "default-service-name" : "hdi_db",
+      "default-container-name" : "48130447TRIAL_DEV_HDI_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-1",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "UPS_TRNG_2"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "UPS_TRNG_2",
+      "generated-user" : "********",
+      "default-xsappname" : "cross-container-service-1",
+      "type" : "existing-service",
+      "default-service-name" : "cross-container-service-1",
+      "default-container-name" : "48130447TRIAL_DEV_CROSS_CONTAINER_SERVICE_1"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-2",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "HANA_TRNG_2"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "HANA_TRNG_2",
+      "generated-user" : "********",
+      "default-xsappname" : "cross-container-service-2",
+      "type" : "existing-service",
+      "default-service-name" : "cross-container-service-2",
+      "default-container-name" : "48130447TRIAL_DEV_CROSS_CONTAINER_SERVICE_2"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  } ],
+  "parameters" : {
+    "authorization-url" : "********",
+    "org-guid" : "4c4cbdfc-f762-48d9-b294-4f41d098252b",
+    "org" : "48130447trial",
+    "deploy-target" : "48130447trial dev",
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "xs-auth-url" : "********",
+    "space-guid" : "96029f7e-c830-446d-b579-b17a0b3dc5a5",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2022 12 21 10:05:18.453#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10582###
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+
+#2.0#2022 12 21 10:05:18.453#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.processDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10582###
+Step "Process Descriptor Step" finished#
+
+#2.0#2022 12 21 10:05:18.492#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:18.495#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Service keys defined for content deployment grouped by service name: { }#
+
+#2.0#2022 12 21 10:05:18.495#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+
+#2.0#2022 12 21 10:05:18.496#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] MTA archive modules: [db]#
+
+#2.0#2022 12 21 10:05:18.496#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Deployed modules: []#
+
+#2.0#2022 12 21 10:05:18.497#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] MTA modules: [db]#
+
+#2.0#2022 12 21 10:05:18.497#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Service keys to create: {
+  "cross-container-service-1" : [ ],
+  "cross-container-service-2" : [ ],
+  "hdi_db" : [ ]
+}#
+
+#2.0#2022 12 21 10:05:18.498#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Modules to deploy: [{
+  "majorSchemaVersion" : 3,
+  "name" : "db",
+  "type" : "com.sap.xs.hdi",
+  "path" : "db",
+  "properties" : {
+    "EXIT" : 1
+  },
+  "parameters" : {
+    "default-url" : "https://48130447trial-dev-db.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "db",
+    "generated-password" : "********",
+    "default-uri" : "48130447trial-dev-db.cfapps.us10-001.hana.ondemand.com",
+    "memory" : "256M",
+    "default-instances" : 1,
+    "no-route" : true,
+    "instances" : 1,
+    "default-host" : "48130447trial-dev-db",
+    "app-name" : "db",
+    "protocol" : "https",
+    "dependency-type" : "hard",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "48130447trial-dev-db",
+    "generated-user" : "********",
+    "tasks" : [ {
+      "command" : "npm start",
+      "memory" : "256M",
+      "name" : "deploy"
+    } ],
+    "no-start" : true,
+    "timestamp" : "20221221100518"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hdi_db",
+    "properties" : {
+      "TARGET_CONTAINER" : "hdi_db"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-1",
+    "group" : "SERVICE_REPLACEMENTS",
+    "properties" : {
+      "key" : "********",
+      "service" : "UPS_TRNG_2"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-2",
+    "group" : "SERVICE_REPLACEMENTS",
+    "properties" : {
+      "key" : "********",
+      "service" : "HANA_TRNG_2"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "db",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+}]#
+
+#2.0#2022 12 21 10:05:18.498#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+
+#2.0#2022 12 21 10:05:18.498#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Detecting service keys to delete.#
+
+#2.0#2022 12 21 10:05:18.499#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] No deployed service keys detected!#
+
+#2.0#2022 12 21 10:05:18.499#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Calculating resource batches...#
+
+#2.0#2022 12 21 10:05:18.499#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Calculating resource batches completed.#
+
+#2.0#2022 12 21 10:05:18.499#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+
+#2.0#2022 12 21 10:05:18.499#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+Step "Build Deploy Model" finished#
+
+#2.0#2022 12 21 10:05:18.543#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:18.544#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+
+#2.0#2022 12 21 10:05:18.544#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildUndeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10584###
+Step "Build Undeploy Model" finished#
+
+#2.0#2022 12 21 10:05:18.585#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.addDomainsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10585###
+[AddDomainsStep] Executing task "addDomainsTask" of process "f768894d-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:18.588#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.addDomainsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10585###
+[AddDomainsStep] Custom domains: []#
+
+#2.0#2022 12 21 10:05:18.588#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.addDomainsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10585###
+Step "Add Domains" finished#
+
+#2.0#2022 12 21 10:05:18.702#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10586###
+[ExtractBatchedServicesStep] Executing task "prepareModulesDeploymentTask" of process "f914d9c5-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:18.703#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10586###
+[ExtractBatchedServicesStep] Extracting services from batch#
+
+#2.0#2022 12 21 10:05:18.705#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10586###
+[ExtractBatchedServicesStep] Services to create: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "hdi_db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "HANA_FINANCE",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"hdi_db\"}"
+    },
+    "labels" : {
+      "mta_id" : "f7524d6eda4d362653ac761c6e7b47fa"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "hdi_db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+
+#2.0#2022 12 21 10:05:18.705#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10586###
+Step "Extract Services From Batches" finished#
+
+#2.0#2022 12 21 10:05:18.792#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:18.793#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[CheckServiceOperationStateStep] Getting service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:05:18.867#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CheckServiceOperationStateTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+Step "Check for service operations in Progress" finished#
+
+#2.0#2022 12 21 10:05:18.904#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:18.905#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "hdi_db"...#
+
+#2.0#2022 12 21 10:05:18.910#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:05:18.992#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+[DetermineServiceCreateUpdateServiceActionsStep] Service should be created#
+
+#2.0#2022 12 21 10:05:18.995#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.DetermineServiceCreateUpdateActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10580###
+Step "Determine update actions" finished#
+
+#2.0#2022 12 21 10:05:19.049#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:19.052#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[CreateServiceStep] Creating service "hdi_db" from MTA resource "hdi_db"...#
+
+#2.0#2022 12 21 10:05:19.058#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "hdi_db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "HANA_FINANCE",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"hdi_db\"}"
+    },
+    "labels" : {
+      "mta_id" : "f7524d6eda4d362653ac761c6e7b47fa"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "hdi_db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+
+#2.0#2022 12 21 10:05:19.713#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[CreateServiceStep] Service "hdi_db" created#
+
+#2.0#2022 12 21 10:05:19.713#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+[CreateServiceStep] Triggered service operations: {
+  "hdi_db" : "CREATE"
+}#
+
+#2.0#2022 12 21 10:05:19.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10583###
+Step "Create" finished#
+
+#2.0#2022 12 21 10:05:27.145#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12447###
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:27.146#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12447###
+[CreateServiceStep] Polling service operations...#
+
+#2.0#2022 12 21 10:05:27.325#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12447###
+[CreateServiceStep] Getting service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:05:28.867#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12447###
+[CreateServiceStep] Last operation for service "hdi_db": {
+  "type" : "CREATE",
+  "state" : "IN_PROGRESS"
+}#
+
+#2.0#2022 12 21 10:05:28.867#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12447###
+[CreateServiceStep] 0 of 1 done, (1 creating)#
+
+#2.0#2022 12 21 10:05:28.873#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12447###
+[CreateServiceStep] Remaining services to poll: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "hdi_db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "HANA_FINANCE",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"hdi_db\"}"
+    },
+    "labels" : {
+      "mta_id" : "f7524d6eda4d362653ac761c6e7b47fa"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "hdi_db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+
+#2.0#2022 12 21 10:05:28.873#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12447###
+Step "Create" finished#
+
+#2.0#2022 12 21 10:05:37.210#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11100###
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:37.211#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11100###
+[CreateServiceStep] Polling service operations...#
+
+#2.0#2022 12 21 10:05:37.310#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11100###
+[CreateServiceStep] Getting service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:05:37.737#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11100###
+[CreateServiceStep] Last operation for service "hdi_db": {
+  "type" : "CREATE",
+  "state" : "IN_PROGRESS"
+}#
+
+#2.0#2022 12 21 10:05:37.737#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11100###
+[CreateServiceStep] 0 of 1 done, (1 creating)#
+
+#2.0#2022 12 21 10:05:37.742#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11100###
+[CreateServiceStep] Remaining services to poll: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "hdi_db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "HANA_FINANCE",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"hdi_db\"}"
+    },
+    "labels" : {
+      "mta_id" : "f7524d6eda4d362653ac761c6e7b47fa"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "hdi_db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+
+#2.0#2022 12 21 10:05:37.744#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11100###
+Step "Create" finished#
+
+#2.0#2022 12 21 10:05:47.224#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10598###
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:47.225#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10598###
+[CreateServiceStep] Polling service operations...#
+
+#2.0#2022 12 21 10:05:47.227#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10598###
+[CreateServiceStep] Getting service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:05:47.566#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10598###
+[CreateServiceStep] Last operation for service "hdi_db": {
+  "type" : "CREATE",
+  "state" : "IN_PROGRESS"
+}#
+
+#2.0#2022 12 21 10:05:47.566#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10598###
+[CreateServiceStep] 0 of 1 done, (1 creating)#
+
+#2.0#2022 12 21 10:05:47.571#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10598###
+[CreateServiceStep] Remaining services to poll: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "hdi_db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "HANA_FINANCE",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"hdi_db\"}"
+    },
+    "labels" : {
+      "mta_id" : "f7524d6eda4d362653ac761c6e7b47fa"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "hdi_db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+
+#2.0#2022 12 21 10:05:47.573#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10598###
+Step "Create" finished#
+
+#2.0#2022 12 21 10:05:57.245#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10602###
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:05:57.246#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10602###
+[CreateServiceStep] Polling service operations...#
+
+#2.0#2022 12 21 10:05:57.248#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10602###
+[CreateServiceStep] Getting service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:05:57.804#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10602###
+[CreateServiceStep] Last operation for service "hdi_db": {
+  "type" : "CREATE",
+  "state" : "IN_PROGRESS"
+}#
+
+#2.0#2022 12 21 10:05:57.804#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10602###
+[CreateServiceStep] 0 of 1 done, (1 creating)#
+
+#2.0#2022 12 21 10:05:57.810#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10602###
+[CreateServiceStep] Remaining services to poll: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "hdi_db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "HANA_FINANCE",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"hdi_db\"}"
+    },
+    "labels" : {
+      "mta_id" : "f7524d6eda4d362653ac761c6e7b47fa"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "hdi_db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+
+#2.0#2022 12 21 10:05:57.812#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10602###
+Step "Create" finished#
+
+#2.0#2022 12 21 10:06:07.268#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12460###
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:06:07.269#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12460###
+[CreateServiceStep] Polling service operations...#
+
+#2.0#2022 12 21 10:06:07.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12460###
+[CreateServiceStep] Getting service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:06:07.900#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12460###
+[CreateServiceStep] Last operation for service "hdi_db": {
+  "type" : "CREATE",
+  "state" : "IN_PROGRESS"
+}#
+
+#2.0#2022 12 21 10:06:07.900#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12460###
+[CreateServiceStep] 0 of 1 done, (1 creating)#
+
+#2.0#2022 12 21 10:06:07.906#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12460###
+[CreateServiceStep] Remaining services to poll: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "hdi_db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "HANA_FINANCE",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"hdi_db\"}"
+    },
+    "labels" : {
+      "mta_id" : "f7524d6eda4d362653ac761c6e7b47fa"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "hdi_db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+
+#2.0#2022 12 21 10:06:07.907#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12460###
+Step "Create" finished#
+
+#2.0#2022 12 21 10:06:17.300#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11108###
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:06:17.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11108###
+[CreateServiceStep] Polling service operations...#
+
+#2.0#2022 12 21 10:06:17.304#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11108###
+[CreateServiceStep] Getting service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:06:17.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11108###
+[CreateServiceStep] Last operation for service "hdi_db": {
+  "type" : "CREATE",
+  "state" : "IN_PROGRESS"
+}#
+
+#2.0#2022 12 21 10:06:17.822#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11108###
+[CreateServiceStep] 0 of 1 done, (1 creating)#
+
+#2.0#2022 12 21 10:06:17.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11108###
+[CreateServiceStep] Remaining services to poll: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "hdi_db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "HANA_FINANCE",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"hdi_db\"}"
+    },
+    "labels" : {
+      "mta_id" : "f7524d6eda4d362653ac761c6e7b47fa"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "hdi_db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+
+#2.0#2022 12 21 10:06:17.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11108###
+Step "Create" finished#
+
+#2.0#2022 12 21 10:06:27.309#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12464###
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:06:27.310#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12464###
+[CreateServiceStep] Polling service operations...#
+
+#2.0#2022 12 21 10:06:27.312#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12464###
+[CreateServiceStep] Getting service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:06:27.635#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12464###
+[CreateServiceStep] Last operation for service "hdi_db": {
+  "type" : "CREATE",
+  "state" : "SUCCEEDED"
+}#
+
+#2.0#2022 12 21 10:06:27.636#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12464###
+[CreateServiceStep] Service "hdi_db" created#
+
+#2.0#2022 12 21 10:06:27.636#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12464###
+[CreateServiceStep] 1 of 1 done#
+
+#2.0#2022 12 21 10:06:27.641#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12464###
+[CreateServiceStep] Remaining services to poll: [ ]#
+
+#2.0#2022 12 21 10:06:27.644#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12464###
+Step "Create" finished#
+
+#2.0#2022 12 21 10:06:37.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11111###
+[CreateServiceStep] Executing task "CreateServiceTask" of process "f9241b32-8116-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:06:37.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11111###
+[CreateServiceStep] Updating metadata of service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:06:37.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11111###
+[CreateServiceStep] Getting GUID of required service instance "hdi_db"...#
+
+#2.0#2022 12 21 10:06:37.424#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11111###
+[CreateServiceStep] Updating metadata of service instance "be1bafff-9251-42d1-bb14-c687fce1d6c2" to: {
+  "annotations" : {
+    "mta_id" : "HANA_FINANCE",
+    "mta_version" : "0.0.1",
+    "mta_resource" : "{\"name\":\"hdi_db\"}"
+  },
+  "labels" : {
+    "mta_id" : "f7524d6eda4d362653ac761c6e7b47fa"
+  }
+}#
+
+#2.0#2022 12 21 10:06:37.530#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11111###
+[CreateServiceStep] Updated metadata of service instance "hdi_db"#
+
+#2.0#2022 12 21 10:06:37.531#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.CreateServiceTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11111###
+Step "Create" finished#
+
+#2.0#2022 12 21 10:06:37.782#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11115###
+[PrepareModulesDeploymentStep] Executing task "prepareModulesDeploymentTask" of process "28344ba7-8117-11ed-9532-eeee0a8ac729"...#
+
+#2.0#2022 12 21 10:06:37.783#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11115###
+[PrepareModulesDeploymentStep] Preparing modules deployment...#
+
+#2.0#2022 12 21 10:06:37.788#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.prepareModulesDeploymentTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11115###
+Step "Prepare Modules Deployment" finished#
+
+#2.0#2022 12 21 10:06:37.925#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "284b55bd-8117-11ed-9532-eeee0a8ac729"...#
+
+#2.0#2022 12 21 10:06:37.926#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+
+#2.0#2022 12 21 10:06:37.928#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[ProcessDescriptorStep] Subscriptions: [ ]#
+
+#2.0#2022 12 21 10:06:37.934#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[ProcessDescriptorStep] MTA Modules: [db]#
+
+#2.0#2022 12 21 10:06:37.938#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "HANA_FINANCE",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "db",
+    "type" : "com.sap.xs.hdi",
+    "path" : "db",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://48130447trial-dev-db.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "db",
+      "generated-password" : "********",
+      "default-uri" : "48130447trial-dev-db.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "instances" : 1,
+      "default-host" : "48130447trial-dev-db",
+      "app-name" : "db",
+      "protocol" : "https",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "48130447trial-dev-db",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true,
+      "timestamp" : "20221221100518"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hdi_db",
+      "properties" : {
+        "TARGET_CONTAINER" : "hdi_db"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-1",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "UPS_TRNG_2"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-2",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "HANA_TRNG_2"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "db",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hdi_db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : {
+      "hdi-container-name" : "hdi_db"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "hdi_db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "hdi_db",
+      "type" : "managed-service",
+      "config" : {
+        "schema" : "HANA_FINANCE"
+      },
+      "default-service-name" : "hdi_db",
+      "default-container-name" : "48130447TRIAL_DEV_HDI_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-1",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "UPS_TRNG_2"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "UPS_TRNG_2",
+      "generated-user" : "********",
+      "default-xsappname" : "cross-container-service-1",
+      "type" : "existing-service",
+      "default-service-name" : "cross-container-service-1",
+      "default-container-name" : "48130447TRIAL_DEV_CROSS_CONTAINER_SERVICE_1"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-2",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "HANA_TRNG_2"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "HANA_TRNG_2",
+      "generated-user" : "********",
+      "default-xsappname" : "cross-container-service-2",
+      "type" : "existing-service",
+      "default-service-name" : "cross-container-service-2",
+      "default-container-name" : "48130447TRIAL_DEV_CROSS_CONTAINER_SERVICE_2"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ]
+  } ],
+  "parameters" : {
+    "authorization-url" : "********",
+    "org-guid" : "4c4cbdfc-f762-48d9-b294-4f41d098252b",
+    "org" : "48130447trial",
+    "deploy-target" : "48130447trial dev",
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "xs-auth-url" : "********",
+    "space-guid" : "96029f7e-c830-446d-b579-b17a0b3dc5a5",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2022 12 21 10:06:37.938#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+
+#2.0#2022 12 21 10:06:37.938#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.reprocessDescriptorTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+Step "Re-Process Descriptor Step" finished#
+
+#2.0#2022 12 21 10:06:37.974#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "284b55bd-8117-11ed-9532-eeee0a8ac729"...#
+
+#2.0#2022 12 21 10:06:37.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "db"...#
+
+#2.0#2022 12 21 10:06:37.981#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+
+#2.0#2022 12 21 10:06:37.981#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[BuildApplicationDeployModelStep] Building configuration entries for org 48130447trial, space dev, spaceId 96029f7e-c830-446d-b579-b17a0b3dc5a5 and namespace null!#
+
+#2.0#2022 12 21 10:06:37.982#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+
+#2.0#2022 12 21 10:06:37.982#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+
+#2.0#2022 12 21 10:06:37.982#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.buildApplicationDeployModelTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+Step "Build Application Deploy Model" finished#
+
+#2.0#2022 12 21 10:06:38.030#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "284b55bd-8117-11ed-9532-eeee0a8ac729"...#
+
+#2.0#2022 12 21 10:06:38.031#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[CreateOrUpdateAppStep] Getting application "db"...#
+
+#2.0#2022 12 21 10:06:38.084#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[CreateOrUpdateAppStep] Creating application "db" from MTA module "db"...#
+
+#2.0#2022 12 21 10:06:38.089#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[CreateOrUpdateAppStep] Creating application "db" with memory "256", URIs "" and staging: {
+  "buildpacks" : [ ],
+  "healthCheckType" : "port"
+}#
+
+#2.0#2022 12 21 10:06:38.519#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[CreateOrUpdateAppStep] Updating environment of application "db"#
+
+#2.0#2022 12 21 10:06:38.684#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[CreateOrUpdateAppStep] Application "db" created#
+
+#2.0#2022 12 21 10:06:38.684#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.createAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+Step "Create App" finished#
+
+#2.0#2022 12 21 10:06:38.867#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "28d54700-8117-11ed-9532-eeee0a8ac729"...#
+
+#2.0#2022 12 21 10:06:38.868#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "db" to service instance "hdi_db"#
+
+#2.0#2022 12 21 10:06:38.868#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[DetermineApplicationServiceBindingActionsStep] Getting application "db"...#
+
+#2.0#2022 12 21 10:06:38.950#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "db": { }#
+
+#2.0#2022 12 21 10:06:39.005#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "db" and service instance "hdi_db": unbind - false bind - true#
+
+#2.0#2022 12 21 10:06:39.006#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+Step "Determine Application Service Binding Actions" finished#
+
+#2.0#2022 12 21 10:06:39.794#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "2967c2a1-8117-11ed-9532-eeee0a8ac729"...#
+
+#2.0#2022 12 21 10:06:39.796#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "db" to service instance "UPS_TRNG_2"#
+
+#2.0#2022 12 21 10:06:39.796#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+[DetermineApplicationServiceBindingActionsStep] Getting application "db"...#
+
+#2.0#2022 12 21 10:06:39.865#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "db": { }#
+
+#2.0#2022 12 21 10:06:39.943#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "db" and service instance "UPS_TRNG_2": unbind - false bind - true#
+
+#2.0#2022 12 21 10:06:39.943#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+Step "Determine Application Service Binding Actions" finished#
+
+#2.0#2022 12 21 10:06:39.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "28d54700-8117-11ed-9532-eeee0a8ac729"...#
+
+#2.0#2022 12 21 10:06:39.079#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[BindServiceToApplicationStep] Binding service instance "hdi_db" to application "db"...#
+
+#2.0#2022 12 21 10:06:39.084#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[BindServiceToApplicationStep] Binding service instance "hdi_db" to application "db" with parameters: { }#
+
+#2.0#2022 12 21 10:06:39.980#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "2967c2a1-8117-11ed-9532-eeee0a8ac729"...#
+
+#2.0#2022 12 21 10:06:39.982#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+[BindServiceToApplicationStep] Binding service instance "UPS_TRNG_2" to application "db"...#
+
+#2.0#2022 12 21 10:06:39.987#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+[BindServiceToApplicationStep] Binding service instance "UPS_TRNG_2" to application "db" with parameters: { }#
+
+#2.0#2022 12 21 10:06:40.330#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+[BindServiceToApplicationStep] Binding service instance "UPS_TRNG_2" to application "db" finished#
+
+#2.0#2022 12 21 10:06:40.330#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11110###
+Step "Bind Service to Application" finished#
+
+#2.0#2022 12 21 10:06:40.418#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12466###
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "29c684de-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:06:40.419#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12466###
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "db" to service instance "HANA_TRNG_2"#
+
+#2.0#2022 12 21 10:06:40.419#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12466###
+[DetermineApplicationServiceBindingActionsStep] Getting application "db"...#
+
+#2.0#2022 12 21 10:06:40.486#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12466###
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "db": { }#
+
+#2.0#2022 12 21 10:06:40.582#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12466###
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "db" and service instance "HANA_TRNG_2": unbind - false bind - true#
+
+#2.0#2022 12 21 10:06:40.582#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineApplicationServiceBindingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12466###
+Step "Determine Application Service Binding Actions" finished#
+
+#2.0#2022 12 21 10:06:42.496#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+[BindServiceToApplicationStep] Binding service instance "hdi_db" to application "db" finished#
+
+#2.0#2022 12 21 10:06:42.496#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11116###
+Step "Bind Service to Application" finished#
+
+#2.0#2022 12 21 10:06:40.621#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12467###
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "29c684de-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:06:40.623#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12467###
+[BindServiceToApplicationStep] Binding service instance "HANA_TRNG_2" to application "db"...#
+
+#2.0#2022 12 21 10:06:40.628#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12467###
+[BindServiceToApplicationStep] Binding service instance "HANA_TRNG_2" to application "db" with parameters: { }#
+
+#2.0#2022 12 21 10:06:43.980#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12467###
+[BindServiceToApplicationStep] Binding service instance "HANA_TRNG_2" to application "db" finished#
+
+#2.0#2022 12 21 10:06:43.980#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.bindServiceToApplicationTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12467###
+Step "Bind Service to Application" finished#
+
+#2.0#2022 12 21 10:06:44.174#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineVcapServicesPropertiesChangedTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12469###
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "2bff35e6-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:06:44.176#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineVcapServicesPropertiesChangedTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12469###
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "db" changed: true#
+
+#2.0#2022 12 21 10:06:44.176#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineVcapServicesPropertiesChangedTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12469###
+Step "Determine vcap services properties changed" finished#
+
+#2.0#2022 12 21 10:06:44.210#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12470###
+[UploadAppStep] Executing task "uploadAppTask" of process "2bff35e6-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:06:44.211#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12470###
+[UploadAppStep] Upload app timeout in seconds: 3,600#
+
+#2.0#2022 12 21 10:06:44.212#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12470###
+[UploadAppStep] Uploading application "db"...#
+
+#2.0#2022 12 21 10:06:45.168#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12470###
+[UploadAppStep] Getting application "db"...#
+
+#2.0#2022 12 21 10:06:45.226#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12470###
+[UploadAppStep] Getting environment of application "61cf7e99-38ef-4166-a914-24539daa855f"...#
+
+#2.0#2022 12 21 10:06:45.280#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12470###
+[UploadAppStep] Uploading file "db/data.zip" for application "db"#
+
+#2.0#2022 12 21 10:06:46.062#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12470###
+[UploadAppStep] Asynchronously uploading binaries for application "db"...#
+
+#2.0#2022 12 21 10:06:46.814#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12470###
+[UploadAppStep] Started async upload of application "db"#
+
+#2.0#2022 12 21 10:06:46.819#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12470###
+[UploadAppStep] Updating environment of application "db"#
+
+#2.0#2022 12 21 10:06:46.870#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########App upload monitor: 9cd28192-20c0-428a-b66d-e8e8ec356c31###
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+
+#2.0#2022 12 21 10:06:46.969#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12470###
+Step "Upload App" finished#
+
+#2.0#2022 12 21 10:06:51.915#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########App upload monitor: 9cd28192-20c0-428a-b66d-e8e8ec356c31###
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+
+#2.0#2022 12 21 10:06:56.951#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########App upload monitor: 9cd28192-20c0-428a-b66d-e8e8ec356c31###
+[UploadAppStep] Upload status: READY#
+
+#2.0#2022 12 21 10:06:57.373#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12476###
+[UploadAppStep] Executing task "uploadAppTask" of process "2bff35e6-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:06:57.374#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12476###
+[UploadAppStep] Upload app timeout in seconds: 3,600#
+
+#2.0#2022 12 21 10:06:57.374#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12476###
+[UploadAppStep] Checking upload status of application "db"...#
+
+#2.0#2022 12 21 10:06:57.375#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12476###
+[UploadAppStep] Getting package "9cd28192-20c0-428a-b66d-e8e8ec356c31"...#
+
+#2.0#2022 12 21 10:06:57.410#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12476###
+[UploadAppStep] Application "db" uploaded#
+
+#2.0#2022 12 21 10:06:57.411#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.uploadAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12476###
+Step "Upload App" finished#
+
+#2.0#2022 12 21 10:06:57.447#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.scaleAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12476###
+[ScaleAppStep] Executing task "scaleAppTask" of process "2bff35e6-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:06:57.449#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.scaleAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12476###
+[ScaleAppStep] Scaling application "db"...#
+
+#2.0#2022 12 21 10:06:57.449#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.scaleAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12476###
+[ScaleAppStep] Application "db" scaled#
+
+#2.0#2022 12 21 10:06:57.449#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.scaleAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12476###
+Step "Scale App" finished#
+
+#2.0#2022 12 21 10:06:57.479#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12480###
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "2bff35e6-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:06:57.481#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12480###
+[DetermineDesiredStateAchievingActionsStep] Getting application "db"...#
+
+#2.0#2022 12 21 10:06:57.535#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12480###
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "db"...#
+
+#2.0#2022 12 21 10:06:57.536#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12480###
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "61cf7e99-38ef-4166-a914-24539daa855f"...#
+
+#2.0#2022 12 21 10:06:57.598#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12480###
+[DetermineDesiredStateAchievingActionsStep] Current state of application db: STOPPED#
+
+#2.0#2022 12 21 10:06:57.598#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12480###
+[DetermineDesiredStateAchievingActionsStep] Desired state of application db: STOPPED#
+
+#2.0#2022 12 21 10:06:57.599#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12480###
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application db: [STAGE]#
+
+#2.0#2022 12 21 10:06:57.599#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.determineDesiredStateAchievingActionsTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12480###
+Step "Determine Desired State Achieving Actions" finished#
+
+#2.0#2022 12 21 10:06:57.638#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12473###
+[StageAppStep] Executing task "stageAppTask" of process "2bff35e6-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:06:57.641#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12473###
+[StageAppStep] Staging application "db"...#
+
+#2.0#2022 12 21 10:06:57.645#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12473###
+[StageAppStep] Creating build for package "9cd28192-20c0-428a-b66d-e8e8ec356c31"...#
+
+#2.0#2022 12 21 10:06:59.061#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12473###
+Step "Stage App" finished#
+
+#2.0#2022 12 21 10:07:07.391#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[StageAppStep] Executing task "stageAppTask" of process "2bff35e6-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:07:07.392#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[StageAppStep] Checking status of application "db"...#
+
+#2.0#2022 12 21 10:07:07.392#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[StageAppStep] Getting build "7885e437-e075-41d9-9461-c6a2a2357131"...#
+
+#2.0#2022 12 21 10:07:07.440#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[StageAppStep] Staging status of application "db": PENDING#
+
+#2.0#2022 12 21 10:07:07.441#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+[StageAppStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:07:07.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12482###
+Step "Stage App" finished#
+
+#2.0#2022 12 21 10:07:17.429#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11124###
+[StageAppStep] Executing task "stageAppTask" of process "2bff35e6-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:07:17.430#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11124###
+[StageAppStep] Checking status of application "db"...#
+
+#2.0#2022 12 21 10:07:17.430#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11124###
+[StageAppStep] Getting build "7885e437-e075-41d9-9461-c6a2a2357131"...#
+
+#2.0#2022 12 21 10:07:17.472#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11124###
+[StageAppStep] Staging status of application "db": PENDING#
+
+#2.0#2022 12 21 10:07:17.473#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11124###
+[StageAppStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:07:17.643#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11124###
+Step "Stage App" finished#
+
+#2.0#2022 12 21 10:07:27.435#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[StageAppStep] Executing task "stageAppTask" of process "2bff35e6-8117-11ed-9b18-eeee0a844726"...#
+
+#2.0#2022 12 21 10:07:27.436#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[StageAppStep] Checking status of application "db"...#
+
+#2.0#2022 12 21 10:07:27.436#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[StageAppStep] Getting build "7885e437-e075-41d9-9461-c6a2a2357131"...#
+
+#2.0#2022 12 21 10:07:27.480#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[StageAppStep] Staging status of application "db": STAGED#
+
+#2.0#2022 12 21 10:07:27.481#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[StageAppStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:07:30.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[StageAppStep] Getting application guid "db"...#
+
+#2.0#2022 12 21 10:07:30.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[StageAppStep] Getting build "7885e437-e075-41d9-9461-c6a2a2357131"...#
+
+#2.0#2022 12 21 10:07:30.145#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[StageAppStep] Binding droplet "dd36d828-ab18-492a-8e87-0bf5fc76a9e6" to application "61cf7e99-38ef-4166-a914-24539daa855f"...#
+
+#2.0#2022 12 21 10:07:30.234#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+[StageAppStep] Application "db" staged#
+
+#2.0#2022 12 21 10:07:30.241#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10623###
+Step "Stage App" finished#
+
+#2.0#2022 12 21 10:07:30.386#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.prepareToExecuteTasksTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10626###
+[PrepareToExecuteTasksStep] Executing task "prepareToExecuteTasksTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:07:30.389#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.prepareToExecuteTasksTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10626###
+Step "Prepare To Execute Tasks" finished#
+
+#2.0#2022 12 21 10:07:30.432#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10627###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:07:30.436#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10627###
+[ExecuteTaskStep] Executing task "deploy" on application "db"...#
+
+#2.0#2022 12 21 10:07:30.441#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10627###
+[ExecuteTaskStep] Running task on application "db": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+
+#2.0#2022 12 21 10:07:32.061#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10627###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:07:37.482#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10629###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:07:37.485#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10629###
+[ExecuteTaskStep] Getting task "26af2339-0122-44b6-bd6a-6840486d8e36"...#
+
+#2.0#2022 12 21 10:07:37.534#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10629###
+[ExecuteTaskStep] Task execution status: running#
+
+#2.0#2022 12 21 10:07:37.535#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10629###
+[ExecuteTaskStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:07:37.689#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10629###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:07:47.477#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:07:47.479#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[ExecuteTaskStep] Getting task "26af2339-0122-44b6-bd6a-6840486d8e36"...#
+
+#2.0#2022 12 21 10:07:47.540#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[ExecuteTaskStep] Task execution status: failed#
+
+#2.0#2022 12 21 10:07:47.542#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[ExecuteTaskStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:07:47.723#Z#ERROR#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+[ExecuteTaskStep] Execution of task "deploy" on application "db" failed.
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2022 12 21 10:07:47.728#Z#ERROR#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+Exception caught#
+
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:77) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:157) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:313) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:170) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:173) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:97) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:81) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:64) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:83) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-5.3.23.jar:5.3.23]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.6.0.jar:6.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+#2.0#2022 12 21 10:07:47.734#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12490###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:07:50.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10630###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:07:50.084#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10630###
+[ExecuteTaskStep] Executing task "deploy" on application "db"...#
+
+#2.0#2022 12 21 10:07:50.090#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10630###
+[ExecuteTaskStep] Running task on application "db": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+
+#2.0#2022 12 21 10:07:50.549#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10630###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:07:57.511#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:07:57.513#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[ExecuteTaskStep] Getting task "62022dfd-0db8-4c44-8df9-85ec3b2a7feb"...#
+
+#2.0#2022 12 21 10:07:57.558#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[ExecuteTaskStep] Task execution status: running#
+
+#2.0#2022 12 21 10:07:57.560#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+[ExecuteTaskStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:07:57.718#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10634###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:08:07.517#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:08:07.616#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[ExecuteTaskStep] Getting task "62022dfd-0db8-4c44-8df9-85ec3b2a7feb"...#
+
+#2.0#2022 12 21 10:08:07.672#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[ExecuteTaskStep] Task execution status: failed#
+
+#2.0#2022 12 21 10:08:07.673#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[ExecuteTaskStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:08:07.850#Z#ERROR#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+[ExecuteTaskStep] Execution of task "deploy" on application "db" failed.
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2022 12 21 10:08:07.855#Z#ERROR#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+Exception caught#
+
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:77) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:157) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:313) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:170) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:173) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:97) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:81) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:64) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:83) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-5.3.23.jar:5.3.23]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.6.0.jar:6.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+#2.0#2022 12 21 10:08:07.861#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12495###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:08:08.479#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10635###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:08:08.483#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10635###
+[ExecuteTaskStep] Executing task "deploy" on application "db"...#
+
+#2.0#2022 12 21 10:08:08.488#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10635###
+[ExecuteTaskStep] Running task on application "db": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+
+#2.0#2022 12 21 10:08:08.963#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10635###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:08:17.549#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:08:17.552#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[ExecuteTaskStep] Getting task "69e605dd-2a44-4521-9127-c42aa32ad920"...#
+
+#2.0#2022 12 21 10:08:17.645#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[ExecuteTaskStep] Task execution status: running#
+
+#2.0#2022 12 21 10:08:17.646#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+[ExecuteTaskStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:08:17.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11140###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:08:27.570#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:08:27.572#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[ExecuteTaskStep] Getting task "69e605dd-2a44-4521-9127-c42aa32ad920"...#
+
+#2.0#2022 12 21 10:08:27.632#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[ExecuteTaskStep] Task execution status: failed#
+
+#2.0#2022 12 21 10:08:27.633#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[ExecuteTaskStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:08:27.842#Z#ERROR#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+[ExecuteTaskStep] Execution of task "deploy" on application "db" failed.
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2022 12 21 10:08:27.847#Z#ERROR#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+Exception caught#
+
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:77) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:157) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:313) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:170) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:173) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:97) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:81) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:64) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:83) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-5.3.23.jar:5.3.23]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.6.0.jar:6.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+#2.0#2022 12 21 10:08:27.856#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10645###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:08:29.803#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10649###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:08:29.934#Z#INFO#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10649###
+[ExecuteTaskStep] Executing task "deploy" on application "db"...#
+
+#2.0#2022 12 21 10:08:29.940#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10649###
+[ExecuteTaskStep] Running task on application "db": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+
+#2.0#2022 12 21 10:08:30.441#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10649###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:08:37.623#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:08:37.625#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[ExecuteTaskStep] Getting task "a6e87f45-3cda-472e-bc9d-c7861792240a"...#
+
+#2.0#2022 12 21 10:08:37.671#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[ExecuteTaskStep] Task execution status: running#
+
+#2.0#2022 12 21 10:08:37.672#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+[ExecuteTaskStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:08:37.837#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11155###
+Step "Execute Task" finished#
+
+#2.0#2022 12 21 10:08:47.630#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "478ee0ab-8117-11ed-ba50-eeee0a8e3d0b"...#
+
+#2.0#2022 12 21 10:08:47.722#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[ExecuteTaskStep] Getting task "a6e87f45-3cda-472e-bc9d-c7861792240a"...#
+
+#2.0#2022 12 21 10:08:47.776#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[ExecuteTaskStep] Task execution status: failed#
+
+#2.0#2022 12 21 10:08:47.777#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[ExecuteTaskStep] Getting recent logs of application "db"...#
+
+#2.0#2022 12 21 10:08:47.978#Z#ERROR#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+[ExecuteTaskStep] Execution of task "deploy" on application "db" failed.
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2022 12 21 10:08:47.983#Z#ERROR#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+Exception caught#
+
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:77) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.146.0.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:65) ~[multiapps-controller-process-1.146.0.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:157) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:313) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:170) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:173) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:97) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:81) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:64) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:83) ~[flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-5.3.23.jar:5.3.23]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.6.0.jar:6.6.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.6.0.jar:6.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+#2.0#2022 12 21 10:08:47.990#Z#DEBUG#com.sap.cloud.lm.sl.xs2.f768892d-8116-11ed-ba50-eeee0a8e3d0b.OPERATION.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12520###
+Step "Execute Task" finished#
+

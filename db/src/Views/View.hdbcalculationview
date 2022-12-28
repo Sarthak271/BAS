@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="View" applyPrivilegeType="NONE" dataCategory="CUBE" schemaVersion="3.0" hierarchyGeneration="SQL" outputViewType="Aggregation" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="View.hdbcalculationview"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="Sales_Data">
+    <resourceUri>Sales_Data</resourceUri>
+  </DataSource>
+</dataSources>
+<snapshotProcedures/>
+<calculationViews>
+  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_1">
+    <viewAttributes>
+      <viewAttribute id="Year"/>
+      <viewAttribute id="Sales"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Sales_Data"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:WindowFunctionView" id="WindowFunction_1">
+    <viewAttributes>
+      <viewAttribute id="Year" aggregationType="sum"/>
+      <viewAttribute id="Sales" aggregationType="sum"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Projection_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="Year" source="Year"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="Sales" source="Sales"/>
+    </input>
+    <function name="SUM">
+      <functionArgument>&quot;Sales&quot;</functionArgument>
+    </function>
+    <windowFunctionResultColumn>Cum_sum</windowFunctionResultColumn>
+    <orderAttributes>
+      <orderAttribute direction="ASC">Year</orderAttribute>
+    </orderAttributes>
+    <partitionAttributes/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="WindowFunction_1">
+  <attributes>
+    <attribute id="Year" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Year"/>
+      <keyMapping columnObjectName="WindowFunction_1" columnName="Year"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures>
+    <measure id="Cum_sum" order="1" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="Cum_sum"/>
+      <measureMapping columnObjectName="WindowFunction_1" columnName="Cum_sum"/>
+    </measure>
+    <measure id="Sales" order="3" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="Sales"/>
+      <measureMapping columnObjectName="WindowFunction_1" columnName="Sales"/>
+    </measure>
+  </baseMeasures>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+  <localDimensions/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="92" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Projection_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="322"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="WindowFunction_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="217"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

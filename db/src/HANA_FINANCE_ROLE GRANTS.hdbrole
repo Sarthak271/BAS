@@ -1,0 +1,13 @@
+{
+  "role": {
+    "name": "HANA_FINANCE_ROLE#",
+    "schema_privileges": [
+      {
+        "privileges_with_grant_option": [
+          "SELECT",
+          "INSERT"
+        ]
+      }
+    ]
+  }
+}
